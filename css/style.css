@@ -335,6 +335,7 @@ ul.social_icon_top li a:hover {
      padding: 25px 25px;    
      position: relative;
      z-index: 10;
+     bottom: 2px;
 }
 
 .logo {
@@ -1287,9 +1288,76 @@ ul.insta li {
      animation: myfirst 15s linear 0s infinite alternate;
 }
 
+
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes myfirst {
+     0% {
+          left: 0px;
+          top: 0;
+     }
+     20% {
+          left: 10%;
+          top: 0;
+     }
+     40% {
+          left: 20%;
+          top: 0;
+     }
+     60% {
+          left: 30%;
+          top: 0;
+     }
+     80% {
+          left: 40%;
+          top: 0;
+     }
+     100% {
+          left: 50%;
+          top: 0;
+          ;
+     }
+}
+     /* Standard syntax */
+     @keyframes myfirst {
+          0% {
+               left: 0px;
+               top: 0;
+          }
+          20% {
+               left: 10%;
+               top: 0;
+          }
+          40% {
+               left: 20%;
+               top: 0;
+          }
+          60% {
+               left: 30%;
+               top: 0;
+          }
+          80% {
+               left: 40%;
+               top: 0;
+          }
+          100% {
+               left: 50%;
+               top: 0;
+          }
+     }
+
+
+
+
+
+
+
+
   
 .swiper-container {
-     height: calc(100vh - 120px);
+     height: calc(815px - 120px);
      margin: 60px;
    }
    .swiper-container {
@@ -1298,7 +1366,6 @@ ul.insta li {
      overflow: hidden;
      list-style: none;
      padding: 0;
-     height: 100vh;
      margin-top: -65px !important;
  }
 
