@@ -332,7 +332,9 @@ ul.social_icon_top li a:hover {
 .header_bottom {
      background-color: #fff;
      height: 100px;
-     padding: 25px 25px;
+     padding: 25px 25px;    
+     position: relative;
+     z-index: 10;
 }
 
 .logo {
@@ -414,7 +416,7 @@ ul.search li a:hover {
 }
 
 .build_box {
-     text-align: left;
+     text-align: center;
      padding-top: 20%;
 }
 
@@ -542,6 +544,8 @@ ul.search li a:hover {
 
 .three_box {
      margin-top: -90px;
+     position: relative;
+     z-index: 10;
 }
 
 .const {
@@ -549,6 +553,7 @@ ul.search li a:hover {
      background: #fff;
      box-shadow: 0 0 250px rgba(3, 3, 3, 0.16);
      transition: ease-in all 0.5s;
+     border-radius: 14px;
 }
 
 .const span {
@@ -564,13 +569,13 @@ ul.search li a:hover {
 }
 
 #text_hover:hover.const {
-     background-color: #f89501;
+     background-color: #cfcfcf;
      transition: ease-in all 0.5s;
      cursor: pointer;
 }
 
 #text_hover:hover.const span {
-     color: #fff;
+     color: #090a0b;
      transition: ease-in all 0.5s;
 }
 
@@ -638,6 +643,7 @@ ul.search li a:hover {
 
 .project_img figure img {
      width: 100%;
+     border-radius: 16px;
 }
 
 .project_text {
@@ -831,12 +837,13 @@ ul.search li a:hover {
      background-color: #fff;
      box-shadow: 0 0 250px rgba(3, 3, 3, 0.15);
      margin: 0 25px;
-     padding-top: 50px !important;
+     padding-top: 19px !important;
      padding: 0px 15px;
+     border-radius: 16px 16px 0 0;
 }
 
 .social_icon_main {
-     background-color: #fe9901;
+     background-color: #010129;
      border-radius: 5px;
      padding: 20px;
 }
@@ -844,9 +851,8 @@ ul.search li a:hover {
 .social_icon_main h4 {
      color: #fff;
      font-size: 20px;
-     line-height: 20px;
      font-weight: bold;
-     padding-bottom: 15px;
+     padding-bottom: 0px;
 }
 
 ul.social_icon_staff li {
@@ -1052,12 +1058,12 @@ ul.social_icon_staff li a:hover {
 }
 
 #testimo .carousel-control-prev {
-     left: 0px;
+     left: 16px;
 }
 
 #testimo .carousel-control-next {
      right: inherit;
-     left: 7%;
+     left: 10%;
 }
 
 .banner .carousel-indicators li {
@@ -1281,61 +1287,66 @@ ul.insta li {
      animation: myfirst 15s linear 0s infinite alternate;
 }
 
+  
+.swiper-container {
+     height: calc(100vh - 120px);
+     margin: 60px;
+   }
+   .swiper-container {
+     margin: 0 auto;
+     position: relative;
+     overflow: hidden;
+     list-style: none;
+     padding: 0;
+     height: 100vh;
+     margin-top: -65px !important;
+ }
 
-/* Safari 4.0 - 8.0 */
 
-@-webkit-keyframes myfirst {
-     0% {
-          left: 0px;
-          top: 0;
+
+ 
+   .swiper-slide {
+     overflow: hidden;
+   }
+   
+   .slide-inner {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     left: 0;
+     top: 0;
+     background-size: cover;
+     background-position: center;
+   }
+   .slide-inner img{
+     display:block;
+     width:100%;
+     height:auto;
+   }
+   .copy {
+     position: absolute;
+     bottom: 15px;
+     left: 0;
+     right: 0;
+     color: white;
+     text-align: center;
+     letter-spacing: 0.06em;
+   }
+
+
+
+
+     .mainheading{
+          position: relative;
+          z-index: 9;
+          text-align: center;
+          font-size: 80px;
+          font-weight: 700;
+          color: #fff;
+          padding-top: 15%;
+          line-height: 80px;
      }
-     20% {
-          left: 10%;
-          top: 0;
-     }
-     40% {
-          left: 20%;
-          top: 0;
-     }
-     60% {
-          left: 30%;
-          top: 0;
-     }
-     80% {
-          left: 40%;
-          top: 0;
-     }
-     100% {
-          left: 50%;
-          top: 0;
-          ;
-     }
-     /* Standard syntax */
-     @keyframes myfirst {
-          0% {
-               left: 0px;
-               top: 0;
-          }
-          20% {
-               left: 10%;
-               top: 0;
-          }
-          40% {
-               left: 20%;
-               top: 0;
-          }
-          60% {
-               left: 30%;
-               top: 0;
-          }
-          80% {
-               left: 40%;
-               top: 0;
-          }
-          100% {
-               left: 50%;
-               top: 0;
-               transform: rotateY(180deg)
-          }
-     }
-     /* end truck*/
+.space-evenly{
+     display: flex;
+     justify-content: space-evenly;
+}

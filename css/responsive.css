@@ -367,7 +367,7 @@
     .navigation.navbar-dark .navbar-toggler {
         float: right;
         border: inherit;
-        margin-top: -40px;
+        margin-top: -70px;
     }
     .navigation.navbar-dark .navbar-nav .nav-link:focus,
     .navigation.navbar-dark .navbar-nav .nav-link:hover {
@@ -390,4 +390,28 @@
     .d_none {
         display: none;
     }
+
+    .mainheading {
+        position: relative;
+        z-index: 9;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+        padding-top: 15%;
+        line-height: normal;
+    }
+
+    .swiper-container {
+        height: 430px;
+    }
+
+.swiper-button-next, .swiper-button-prev {
+    top: 35% !important;
+}
+
+.const {    
+    margin: 10px;
+}
+
 }
