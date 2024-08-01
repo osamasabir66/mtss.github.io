@@ -601,7 +601,6 @@ ul.search li a:hover {
 
 .about .titlepage span {
      font-family: 'Raleway', sans-serif;
-     padding-bottom: 60px;
      padding-top: 40px;
 }
 
@@ -744,28 +743,29 @@ ul.search li a:hover {
 
 .choose {
      background: url(../images/choose_bg.jpg);
-     background-size: 100% 100%;
+     background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
      padding: 60px 0;
      margin-top: 90px;
+     background-attachment: fixed;
 }
 
 .choose .titlepage {
-     text-align: left;
+     text-align: center;
 }
 
 .choose .titlepage h2 {
      padding-bottom: 30px;
+     color: #fff;
 }
 
 .choose .titlepage p {
-     color: #141414;
-     font-weight: 400;
+     color: #fff;
+     font-weight: 600;
      font-family: 'Raleway', sans-serif;
-     font-size: 17px;
+     font-size: 18px;
      line-height: 32px;
-     padding-bottom: 85px;
 }
 
 .award {
@@ -1416,4 +1416,21 @@ ul.insta li {
 .space-evenly{
      display: flex;
      justify-content: space-evenly;
+}
+
+.support_img{
+     width: 100%;
+}
+.support_img img{
+     border-radius: 16px;
+}
+
+.text-v-c{
+     display: flex;
+     align-items: center;
+}
+
+.titlepage b{
+     font-weight: 700;
+     border-bottom: 4px solid #000268;
 }
