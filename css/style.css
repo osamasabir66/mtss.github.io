@@ -351,6 +351,9 @@ ul.social_icon_top li a:hover {
      text-transform: uppercase;
 }
 
+.logo img{
+     width: 170px;
+}
 
 /*-- navigation--*/
 
@@ -1134,6 +1137,10 @@ ul.social_icon_staff li a:hover {
 .logo_bottom {
      float: left;
      padding-bottom: 24px;
+}
+
+.logo_bottom img{
+     width: 170px;
 }
 
 ul.link_menu li {
