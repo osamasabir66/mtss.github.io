@@ -606,6 +606,7 @@ ul.search li a:hover {
 .about .titlepage span {
      font-family: 'Raleway', sans-serif;
      padding-top: 40px;
+     text-align: justify;
 }
 .about .titlepage p {
      font-family: 'Raleway', sans-serif;
@@ -614,6 +615,7 @@ ul.search li a:hover {
     line-height: 25px;
     color: #0a0a0a;
     display: block;
+    text-align: justify;
 }
 
 .about_img {
@@ -1262,7 +1264,7 @@ ul.insta li {
 }
 
 .back_re {
-     background-color: #c97a05;
+     background-color: #161825;
 }
 
 .back_re .title {
@@ -1456,34 +1458,10 @@ ul.insta li {
      font-weight: 600 !important;
 }
 
-.org p {
-     font-family: 'Raleway', sans-serif;
-     padding-top: 20px;
-     font-size: 17px;
-    line-height: 25px;
-    color: #0a0a0a;
-    display: block;
-}
-
-.org h2 {
-     font-size: 40px;
-     color: #1c1c1c;
-     line-height: 40px;
-     font-weight: 700;
-     padding: 0;
-}
-
-.org{
-     background: #fff;
-     padding: 36px;
-     border-radius: 16px;
-}
-
-
 .service_ul {
-     text-align: left;
      padding: 16px 16px 16px 0;
-     margin-left: 45px;
+     margin-left: 28px;
+     text-align: justify;
  }
 .service_ul li {
      padding: 5px 0;
@@ -1492,11 +1470,45 @@ ul.insta li {
 .services-box{
      padding: 40px 0;
 }
-.services {
-     padding: 20px;
-     background: #fff;
-     box-shadow: 0 0 250px rgba(3, 3, 3, 0.16);
-     transition: ease-in all 0.5s;
-     border-radius: 14px;
-     margin: 30px 0;
+
+
+ .org{
+     padding: 30px !important;
  }
+
+
+ 
+/** about section **/
+
+.services {
+     background-color: #fff;
+     padding: 30px 0 0 0;
+}
+
+.services .titlepage {
+     max-width: 666px;
+     float: right;
+     width: 100%;
+     text-align: left;
+     padding-bottom: 0;
+}
+
+.services .titlepage span {
+     font-family: 'Raleway', sans-serif;
+     padding-top: 40px;
+     text-align: justify;
+}
+.services .titlepage p {
+     font-family: 'Raleway', sans-serif;
+     padding-top: 20px;
+     font-size: 17px;
+    line-height: 25px;
+    color: #0a0a0a;
+    display: block;
+    text-align: justify;
+}
+
+
+.services h2 {
+     font-size: 36px;
+}
