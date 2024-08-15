@@ -107,3 +107,11 @@ var swiperOptions = {
 };
 
 var swiper = new Swiper(".swiper-container", swiperOptions);
+
+
+$(document).ready(function() {
+  $('#media').carousel({
+    pause: true,
+    interval: false,
+  });
+});

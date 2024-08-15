@@ -399,9 +399,11 @@
         font-weight: 700;
         color: #fff;
         padding-top: 15%;
-        line-height: normal;
+        line-height: 32px;
     }
-
+    .carousel-caption {
+        bottom: 40% !important;
+    }
     .swiper-container {
         height: 250px;
     }
