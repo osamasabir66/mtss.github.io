@@ -661,6 +661,7 @@ ul.search li a:hover {
 .project_img figure img {
      width: 100%;
      border-radius: 16px;
+     height: 350px;
 }
 
 .project_text {
@@ -673,8 +674,12 @@ ul.search li a:hover {
      transition: ease-in all 0.5s;
      background: rgb(6 70 165 / 64%);
     border-radius: 16px;
+    width: 100%;
+    text-align: left;
 }
-
+.project {
+     position: relative;
+ }
 
 /*
 .project_text::before {
@@ -1624,3 +1629,71 @@ ul.insta li {
 .mtb-16{
      margin: 16px 0;
 }
+
+.btn {
+     background: #0646a5;
+     color: #fff !important;
+     font-size: 13px;
+     margin: 10px 0;
+ }
+
+ .btn:hover {
+     background: #032961;
+ }
+
+ 
+.project-detail img{
+     width: 100%;
+     border-radius: 16px;
+     margin: 26px 0;
+}
+.project-detail h2{
+     font-size: 28px;
+     color: #1c1c1c;
+     line-height: 40px;
+     font-weight: 700;
+     padding: 0;
+     margin: 20px 0 8px 0;
+     text-align: left;
+}
+.project-detail p{
+     margin-bottom: 16px;
+     font-size: 16px;
+     font-weight: normal;
+     text-align: left;
+
+}
+.project-detail ul{
+     margin-left: 16px;
+     text-align: left;
+
+}
+.project-detail li{
+     list-style: disc;
+     font-size: 16px;
+     padding: 5px;
+     text-align: left;
+
+}
+.project-detail {
+     margin: 50px auto;
+     text-align: center;
+     width: 80%;
+ }
+
+ .list-sub {
+     font-size: 22px !important;
+     list-style: none !important;
+     font-weight: bold;
+     color: #0e61a3;    
+     position: relative;
+     left: -25px;
+ }
+
+ .m-b-50{
+     margin-bottom: 50px;
+ }
+
+ .what-we-do {
+     margin-bottom: 50px;
+ }
