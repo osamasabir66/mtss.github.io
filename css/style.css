@@ -647,7 +647,7 @@ ul.search li a:hover {
 
 .relative3 {
      position: inherit;
-     padding-bottom: 130px;
+     padding-bottom: 195px;
 }
 
 .projects_ban {
@@ -660,22 +660,22 @@ ul.search li a:hover {
 
 .project_img figure img {
      width: 100%;
-     border-radius: 16px;
+     border-radius: 16px 16px 0 0;
      height: 350px;
 }
 
 .project_text {
      position: absolute;
-     bottom: 0;
+     bottom: -123px;
      height: 123px;
      overflow: hidden;
      padding: 20px 20px 20px 20px;
      margin-right: 15px;
      transition: ease-in all 0.5s;
-     background: rgb(6 70 165 / 64%);
-    border-radius: 16px;
-    width: 100%;
-    text-align: left;
+     background: rgb(6 70 165);
+     border-radius: 0 0 16px 16px;
+     width: 100%;
+     text-align: left;
 }
 .project {
      position: relative;
@@ -735,7 +735,7 @@ ul.search li a:hover {
      opacity: 1;
      font-size: 19px;
      color: #fff;
-     top: 88%;
+     top: 90%;
      border-radius: 40px;
 }
 
