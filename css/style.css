@@ -1603,14 +1603,14 @@ ul.insta li {
      width: 100%;
      border-radius: 16px;
 }
-.what-we-do h2{
-     font-size: 40px;
+.what-we-do h2 {
+     font-size: 36px;
      color: #1c1c1c;
      line-height: 40px;
      font-weight: 700;
      padding: 0;
-     margin: 20px 0;
-}
+     margin: 16px 0;
+ }
 .what-we-do p{
      margin-bottom: 16px;
      font-size: 16px;
@@ -1621,7 +1621,7 @@ ul.insta li {
 .what-we-do li{
      list-style: disc;
      font-size: 16px;
-     padding: 5px;
+     padding: 3px;
 }
 .p-0{
      padding: 0px;
@@ -1696,4 +1696,8 @@ ul.insta li {
 
  .what-we-do {
      margin-bottom: 50px;
+ }
+
+ .align-center{
+     align-items: center;
  }
