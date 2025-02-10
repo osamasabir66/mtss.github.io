@@ -698,7 +698,7 @@ ul.search li a:hover {
 .project_text:hover {
      cursor: pointer;
      background-color: #fffffff2;
-     height: 303px;
+     height: 330px;
      transition: ease-in all 0.5s;
 }
 
