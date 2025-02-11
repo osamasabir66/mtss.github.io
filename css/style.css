@@ -711,7 +711,7 @@ ul.search li a:hover {
 .project_text h3 {
      transition: ease-in all 0.5s;
      color: #fff;
-     text-align: left;
+     text-align: justify;
      display: block;
      font-size: 28px;
      font-weight: 500;
@@ -726,6 +726,7 @@ ul.search li a:hover {
      line-height: 28px;
      font-family: 'Raleway', sans-serif;
      font-weight: normal;
+     text-align: justify;
 }
 
 #proj .carousel-control-prev,
@@ -1618,6 +1619,7 @@ ul.insta li {
 }
 .what-we-do ul{
      margin-left: 16px;
+     text-align: justify;
 }
 .what-we-do li{
      list-style: disc;
