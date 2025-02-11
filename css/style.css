@@ -1621,11 +1621,13 @@ ul.insta li {
      margin-left: 16px;
      text-align: justify;
 }
-.what-we-do li{
+.what-we-do li {
      list-style: disc;
      font-size: 17px;
      padding: 3px;
-}
+     line-height: 22px;
+     margin-bottom: 12px;
+ }
 .p-0{
      padding: 0px;
 }
