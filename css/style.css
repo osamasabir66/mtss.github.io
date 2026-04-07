@@ -1773,3 +1773,6 @@ border-radius: 16px 16px 0 0;
     opacity: 1 !important;
 }
 
+.news .card{
+     min-height: 630px;
+}
